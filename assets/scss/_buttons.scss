@@ -1,0 +1,19 @@
+.btn {
+    color: #000;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    min-width: 235px;
+    height: 50px;
+    line-height: 50px;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 10px;
+    background: $yellow-btn-start;
+    background-image: linear-gradient(to right, $yellow-btn-start, $yellow-btn-end);
+    transition: all 0.5s;
+    &:hover {
+        background-image: linear-gradient(to right, $yellow-btn-end, $yellow-btn-start);
+    }
+}

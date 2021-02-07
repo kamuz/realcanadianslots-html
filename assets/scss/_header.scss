@@ -1,0 +1,42 @@
+header {
+    height: 60px;
+    .flex {
+        justify-content: space-between;
+        > div {
+            width: 33.333%;
+            &.logo {
+                margin-top: 10px;
+                img {
+                    display: inline-block;
+                    width: 100px;
+                    height: 41px;
+                }
+            }
+            &.jackpot {
+                min-width: 300px;
+                font-size: 14px;
+                font-weight: 600;
+                text-transform: uppercase;
+                text-align: center;
+                margin-top: 15px;
+                .ticket-counter {
+                    margin: auto;
+                    width: 293px;
+                    height: 55px;
+                    background: url('../img/counter-bg.png') no-repeat;
+                    font-size: 30px;
+                    color: #191919;
+                    font-weight: 900;
+                    text-align: left;
+                    position: relative;
+                    z-index: 10;
+                    .progressive-jackpot-ticker {
+                        position: relative;
+                        left: 40px;
+                        top: 5px;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,39 @@
+/**
+ * General
+ */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: $bg-color;
+    color: #fff;
+    font-family: $main-font;
+    .container {
+        margin: auto;
+        max-width: 1200px
+    }
+    .flex {
+        display: flex;
+    }
+    .text-center {
+        text-align: center;
+    }
+    h2,
+    h3 {
+        color: $yellow-header;
+    }
+    figure {
+        margin: 0;
+        padding: 0;
+        &.alignright img {
+            float: right;
+            margin-left: 20px;
+        }
+        &.alignleft img {
+            float: left;
+            margin-right: 20px;
+        }
+    }
+    .hide {
+        display: none;
+    }
+}

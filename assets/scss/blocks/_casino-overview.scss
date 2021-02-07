@@ -1,0 +1,59 @@
+.casino-overview {
+    .container {
+        max-width: 800px;
+        color: $grey-text;
+        h2 {
+            font-size: 36px;
+        }
+        .full-width-banner {
+            text-align: center;
+            img {
+                max-width: 100%;
+            }
+            .casino-logo {
+                margin-top: -30px;
+                position: relative;
+                top: 35px;
+            }
+            .banner {
+                border-radius: 8px;
+            }
+            .btn {
+                position: relative;
+                bottom: 75px;
+                margin-bottom: -75px;
+            }
+        }
+    }
+    .other-slots {
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            .banner-set {
+                display: flex;
+                margin: 0 -11px;
+                .banner {
+                    margin: 0 11px -60px;
+                    text-align: center;
+                    img {
+                        display: inline-block;
+                        border-radius: 10px;
+                    }
+                    .content {
+                        position: relative;
+                        bottom: 110px;
+                        .name {
+                            text-transform: uppercase;
+                            font-size: 14px;
+                            font-weight: bold;
+                            margin-bottom: 8px;
+                            sup {
+                                font-size: 8px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
